@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #f5f3ff;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 240px;
+  background: linear-gradient(180deg, #6d28d9, #9333ea);
+  color: white;
+  padding: 20px;
+}
+
+.sidebar button {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  cursor: pointer;
+}
+
+/* Main */
+.main {
+  flex: 1;
+  padding: 25px;
+}
+
+/* Search */
+.search {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Input */
+.inputBox {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.inputBox input,
+.inputBox select {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.inputBox button {
+  background: #6d28d9;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+/* Task */
+.taskCard {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 12px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #10b981;
+}
+
+.badge {
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.low { background: #dbeafe; }
+.normal { background: #f3e8ff; }
+.high { background: #fee2e2; }
+
+.taskCard button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
